@@ -1,4 +1,5 @@
 <!doctype HTML>
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -11,9 +12,9 @@
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4;'>
 
-        <a-marker type='barcode' value='1015'>
-<a-sphere position='0 1 0' color="green"></a-sphere>
-        </a-marker>
+        <a-marker type='barcode' value='115'>
+            <a-sphere position='0 1 0' color="green"></a-sphere>
+   </a-marker>
     
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
         <a-entity camera></a-entity>
